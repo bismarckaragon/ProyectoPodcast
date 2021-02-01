@@ -62,6 +62,7 @@ body {
   border: 0px;
 }
 .textogrande {
+  display: inline-block;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 6.4rem;
   color: #060a24;
