@@ -119,6 +119,8 @@ body {
   width: 93.2vw;
   height: 23.2rem;
   margin-bottom: 1.1rem;
+  border: none;
+  background-color: transparent;
 }
 
 .telefono {
