@@ -298,3 +298,15 @@ body {
   letter-spacing: 0;
   line-height: 28px;
 }
+
+.ir-arriba {
+  padding: 20px;
+  font-size: 50px;
+  opacity: 50%;
+  color: #00f3bb;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  z-index: 1;
+}
