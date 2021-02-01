@@ -19,12 +19,12 @@ body {
 
 .logo {
   margin-top: 1rem;
-
-  justify-content: space-between;
 }
 
 .principal {
   height: 4.4rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo img {
@@ -32,7 +32,69 @@ body {
   margin-left: 5vw;
 }
 
+.reponsilist,
+.reponsilist ul {
+  display: none;
+}
+
+.respmenu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  width: 100vw;
+  background: #0000ec;
+  font-variant: small-caps;
+  text-shadow: 1px 1px black;
+}
+
+.respmenu input[type="checkbox"],
+.respmenu .fa-bars,
+.respmenu .fa-times {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  top: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.respmenu .fa-bars,
+.respmenu .fa-times {
+  margin-right: 5vw;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  pointer-events: none;
+}
+
+.respmenu input[type="checkbox"] {
+  opacity: 0;
+}
+
 .respmenu {
+  color: #000;
+  position: relative;
+
+  min-height: 48px;
+}
+
+.respmenu nav {
+  display: none;
+}
+
+.respmenu input:checked ~ nav {
+  display: block;
+  margin-top: 4.8rem;
+  margin-left: -4.2rem;
+}
+
+.respmenu input:checked ~ .fa-bars {
+  display: none;
+}
+
+.respmenu input:not(:checked) ~ .fa-times {
   display: none;
 }
 
@@ -265,4 +327,16 @@ body {
 
 .redes img {
   width: 1.6rem;
+}
+
+.ir-arriba {
+  padding: 20px;
+  font-size: 30px;
+  opacity: 50%;
+  color: #00f3bb;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  z-index: 1;
 }
