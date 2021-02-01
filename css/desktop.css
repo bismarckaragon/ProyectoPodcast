@@ -23,6 +23,12 @@ body {
   height: 3.6rem;
 }
 
+.respmenu input,
+.respmenu i,
+.menumobile {
+  display: none;
+}
+
 .reponsilist ul {
   font-family: "IBM Plex Mono", monospace;
   font-size: 1.8rem;

@@ -32,6 +32,11 @@ body {
   margin-left: 5vw;
 }
 
+.reponsilist,
+.reponsilist ul {
+  display: none;
+}
+
 .respmenu a {
   color: inherit;
   text-decoration: none;
